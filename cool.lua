@@ -1,4 +1,7 @@
 -- ts is a lil bit skidded lmaoo
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua", true))()
+
+wait(0.1)
 
 local ReplicatedStorage = game:FindService("ReplicatedStorage")
 local ChatEvents = ReplicatedStorage:WaitForChild("DefaultChatSystemChatEvents")
@@ -20,6 +23,3 @@ OnMessageEvent.OnClientEvent:Connect(function(data)
     end
 end)
 
-wait(0.1)
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua", true))()
